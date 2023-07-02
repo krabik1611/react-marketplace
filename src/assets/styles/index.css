@@ -1,0 +1,153 @@
+@import '_variables.css';
+
+#root {
+    background: var(--base-02);
+    min-height: 100vh;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.product-container{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+
+
+}
+
+.product-card {
+    color: var(--text-01);
+    overflow: hidden;
+    cursor: pointer;
+    width: 200px;
+    height: 400px;
+    background: var(--base-01);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0.5rem;
+}
+
+.product-card:hover{
+    box-shadow: 0 0 0.5rem rgba(0,0,0, 0.1);
+    transform: translateY(-0.25rem);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.product-card_image_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.product-card img{
+    width: 100%;
+    height: 250px;
+    justify-self: center;
+    object-fit: cover ;
+    object-position: center;
+}
+
+.product-title{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.product-price{
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+.product-price-rating{
+    font-size: 0.75rem;
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-form{
+    background: var(--base-01);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.logo{
+    font-size: 2rem;
+    margin:1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    /*background: rgb(2,0,36);*/
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(255,0,20,1) 100%);
+    /*background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(2,0,36,1)), color-stop(19%, rgba(9,9,121,1)), color-stop(100%, rgba(255,0,20,1)));*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo-react{
+    color: #022AD6;
+}
+
+.logo-marketplace{
+    color: #F50C3C;
+}
+
+.form-label{
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0.25rem 0;
+    color: var(--text-02);
+}
+.login-button{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: var(--base-primary);
+    color: var(--text-04);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.login-button:hover{
+    background: var(--base-primary-hover);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem ;
+    background: var(--base-01);
+    box-shadow: 0 0 0.5rem rgba(0,0,0, 0.1);
+}
+.name_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.5rem;
+    color: var(--text-02);
+    font-weight: 600;
+    font-size: 0.875rem;
+}

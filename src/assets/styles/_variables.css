@@ -1,0 +1,103 @@
+@layer theme {
+    :root {
+        --base-01: rgba(255, 255, 255, 1);
+        --base-02: rgba(242, 244, 249, 1);
+        --base-03: rgba(223, 228, 236, 1);
+        --base-04: rgba(203, 211, 223, 1);
+        --base-05: rgba(183, 192, 207, 1);
+        --base-06: rgba(148, 160, 182, 1);
+        --base-07: rgba(102, 118, 149, 1);
+        --base-08: rgba(54, 67, 100, 1);
+        --base-09: rgba(45, 51, 72, 1);
+        --base-primary: rgba(6, 107, 198, 1);
+        --base-primary-hover: rgba(29, 158, 249, 1);
+        --base-primary-active: rgba(0, 78, 167, 1);
+        --base-secondary: rgba(223, 228, 236, 1);
+        --base-secondary-hover: rgba(203, 211, 223, 1);
+        --base-secondary-active: rgba(183, 192, 207, 1);
+        --base-accent: rgba(255, 128, 120, 1);
+        --base-accent-hover: rgba(254, 159, 158, 1);
+        --base-accent-active: rgba(234, 51, 50, 1);
+        --base-clear: rgba(31, 36, 53, 0.08);
+        --base-clear-hover: rgba(31, 36, 53, 0.16);
+        --base-clear-active: rgba(31, 36, 53, 0.2);
+        --text-01: rgba(54, 67, 100, 1);
+        --text-02: rgba(102, 118, 149, 1);
+        --text-03: rgba(183, 192, 207, 1);
+        --text-04: rgba(255, 255, 255, 1);
+        --text-link: rgba(29, 158, 249, 1);
+        --text-link-hover: rgba(6, 107, 198, 1);
+        --text-positive: rgba(138, 180, 0, 1);
+        --text-positive-hover: rgba(94, 141, 0, 1);
+        --text-negative: rgba(249, 120, 120, 1);
+        --text-negative-hover: rgba(234, 51, 50, 1);
+        --status-success-fill: rgba(138, 180, 0, 1);
+        --status-success-bg-hover: rgba(138, 180, 0, 0.4);
+        --status-success-bg: rgba(138, 180, 0, 0.32);
+        --status-error-fill: rgba(249, 120, 120, 1);
+        --status-error-bg-hover: rgba(249, 120, 120, 0.5);
+        --status-error-bg: rgba(249, 120, 120, 0.35);
+        --status-info-fill: rgba(101, 187, 250, 1);
+        --status-info-bg-hover: rgba(101, 187, 250, 0.5);
+        --status-info-bg: rgba(101, 187, 250, 0.35);
+        --status-warning-fill: rgba(255, 204, 3, 1);
+        --status-warning-bg-hover: rgba(255, 204, 3, 0.5);
+        --status-warning-bg: rgba(255, 204, 3, 0.35);
+        --status-neutral-fill: rgba(255, 204, 3, 0.35);
+        --status-neutral-bg-hover: rgba(31, 36, 53, 0.6);
+        --status-neutral-bg: rgba(31, 36, 53, 0.8);
+
+
+    }
+
+    :root .dark {
+        --base-01: rgba(31, 36, 53, 1);
+        --base-02: rgba(45, 51, 72, 1);
+        --base-03: rgba(54, 67, 100, 1);
+        --base-04: rgba(76, 94, 134, 1);
+        --base-05: rgba(76, 94, 134, 1);
+        --base-06: rgba(102, 118, 149, 1);
+        --base-07: rgba(163, 174, 193, 1);
+        --base-08: rgba(233, 235, 239, 1);
+        --base-09: rgba(242, 244, 249, 1);
+        --base-primary: rgba(6, 107, 198, 1);
+        --base-primary-hover: rgba(29, 158, 249, 1);
+        --base-primary-active: rgba(0, 78, 167, 1);
+        --base-secondary: rgba(183, 192, 207, 0.3);
+        --base-secondary-hover: rgba(183, 192, 207, 0.52);
+        --base-secondary-active: rgba(183, 192, 207, 0.72);
+        --base-accent: rgba(183, 192, 207, 0.72);
+        --base-accent-hover: rgba(183, 192, 207, 0.72);
+        --base-accent-active: rgba(183, 192, 207, 0.72);
+        --base-clear: rgba(255, 255, 255, 0.16);
+        --base-clear-hover: rgba(255, 255, 255, 0.24);
+        --base-clear-active: rgba(255, 255, 255, 0.4);
+        --text-01: rgba(255, 255, 255, 1);
+        --text-02: rgba(163, 174, 193, 1);
+        --text-03: rgba(102, 118, 149, 1);
+        --text-04: rgba(255, 255, 255, 1);
+        --text-link: rgba(29, 158, 249, 1);
+        --text-link-hover: rgba(6, 107, 198, 1);
+        --text-positive: rgba(138, 180, 0, 1);
+        --text-positive-hover: rgba(94, 141, 0, 1);
+        --text-negative: rgba(249, 120, 120, 1);
+        --text-negative-hover: rgba(234, 51, 50, 1);
+        --status-success-fill: rgba(138, 180, 0, 1);
+        --status-success-bg-hover: rgba(138, 180, 0, 0.4);
+        --status-success-bg: rgba(138, 180, 0, 0.32);
+        --status-error-fill: rgba(249, 120, 120, 1);
+        --status-error-bg-hover: rgba(249, 120, 120, 0.4);
+        --status-error-bg: rgba(249, 120, 120, 0.32);
+        --status-info-fill: rgba(101, 187, 250, 1);
+        --status-info-bg-hover: rgba(101, 187, 250, 0.4);
+        --status-info-bg: rgba(101, 187, 250, 0.4);
+        --status-warning-fill: rgba(255, 204, 3, 1);
+        --status-warning-bg-hover: rgba(255, 204, 3, 0.4);
+        --status-warning-bg: rgba(255, 204, 3, 0.32);
+        --status-neutral-fill: rgba(31, 36, 53, 0.4);
+        --status-neutral-bg-hover: rgba(31, 36, 53, 0.6);
+        --status-neutral-bg: rgba(31, 36, 53, 0.8);
+
+
+    }
+}
